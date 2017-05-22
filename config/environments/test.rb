@@ -35,6 +35,8 @@ Rails.application.configure do
   config.action_mailer.delivery_method = :test
   config.action_mailer.default_url_options = { 
                                     host: 'rails-tutorial-nmm2nmm2.c9users.io' }
+                                    
+  require 'carrierwave/orm/activerecord'
     
 
   # Print deprecation notices to the stderr.
